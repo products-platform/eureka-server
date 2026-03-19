@@ -1,0 +1,20 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka-server
+  main:
+    banner-mode: off
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+#for actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
