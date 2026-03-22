@@ -4,3 +4,4 @@ spring:
 
   config:
     import: "optional:configserver:${CONFIG_SERVER_URL}"
+#SPRING_PROFILES_ACTIVE=dev;CONFIG_SERVER_URL=http://localhost:8888
